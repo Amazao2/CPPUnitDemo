@@ -1,5 +1,5 @@
-#include <string>;
-#include "TriangleType.h";
+#include <string>
+#include "TriangleType.h"
 
 using namespace std;
 
@@ -36,7 +36,7 @@ public:
 
 	// what type is this triangle?
 	TriangleType getType() {
-		triangleType;
+		return this->triangleType;
 	}
 
 	// what is the area of the triangle?
