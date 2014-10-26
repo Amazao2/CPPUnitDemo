@@ -40,7 +40,7 @@ public:
 	}
 
 	// what is the area of the triangle?
-	double getArea()
+	double getPerimeter()
 	{
 		return 0.0;
 	}
@@ -49,21 +49,21 @@ public:
 
 	bool operator>(Triangle& t)
 	{
-		return this->getArea() > t.getArea();
+		return this->getPerimeter() > t.getPerimeter();
 	}
 
 	bool operator<(Triangle& t)
 	{
-		return this->getArea() < t.getArea();
+		return this->getPerimeter() < t.getPerimeter();
 	}
 	
 	bool operator==(Triangle& t)
 	{
-		return this->getArea() == t.getArea();
+		return this->getPerimeter() == t.getPerimeter();
 	}
 
 	bool operator!=(Triangle& t)
 	{
-		return this->getArea() != t.getArea();
+		return this->getPerimeter() != t.getPerimeter();
 	}
 };
