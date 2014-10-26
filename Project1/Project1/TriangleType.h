@@ -1,5 +1,9 @@
 #include <string>;
-
 using namespace std;
 
-enum class TriangleType { "Isosceles", "Scalene", "Equilateral" };
+enum TriangleType 
+{ 
+	Isosceles = 0, 
+	Scalene, 
+	Equilateral 
+};
