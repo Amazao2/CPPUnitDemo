@@ -7,7 +7,13 @@ void Triangle::setTriangleType()
 	int middle = getMiddleSide();
 	int shortest = getShortestSide();
 
-	//TODO
+	if (shortest == middle && middle == longest)
+		triangleType = Equilateral;
+	else if (longest == middle || middle == shortest)
+		triangleType = Isosceles;
+	else
+		triangleType = Scalene;
+
 
 }
 
