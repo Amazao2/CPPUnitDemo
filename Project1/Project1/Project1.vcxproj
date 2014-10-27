@@ -69,6 +69,7 @@
     <ClInclude Include="TriangleType.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="NotTriangleException.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
