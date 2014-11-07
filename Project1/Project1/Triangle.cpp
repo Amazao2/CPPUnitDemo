@@ -1,5 +1,5 @@
 #include "Triangle.h"
-#include "NotTriangleException.cpp"
+#include "NotTriangleException.h"
 
 
 void Triangle::setTriangleType()
@@ -21,8 +21,11 @@ void Triangle::setTriangleType()
 // constructor - initializes the sides
 Triangle::Triangle(int side1, int side2, int side3)
 {
+	bool positiveIntSides = side1 > 0 && side2 > 0 && side3 > 0;
+	bool sidesCorrectlyProportioned = side2 + side3 < side1 || side1 + side2 < side3 || side1 + side3 < side2;
+
 	// ensure these values make a triangle
-	if (side2 + side3 < side1 || side1 + side2 < side3 || side1 + side3 < side2)
+	if (positiveIntSides && sidesCorrectlyProportioned)
 	{
 		throw NotTriangleException(); // throw an exception if this is not a triangle
 	}

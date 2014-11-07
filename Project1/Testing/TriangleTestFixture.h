@@ -1,7 +1,7 @@
 #include <cppunit\TestFixture.h>
 #include <cppunit/extensions/HelperMacros.h>
 #include "../Project1/Triangle.h"
-#include "../Project1/NotTriangleException.cpp"
+#include "../Project1/NotTriangleException.h"
 
 
 class TriangleTestFixture : public CppUnit::TestFixture

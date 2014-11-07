@@ -24,12 +24,15 @@
     <ClInclude Include="Square.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="NotASquareException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotTriangleException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Triangle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NotTriangleException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Square.cpp">

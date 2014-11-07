@@ -6,6 +6,7 @@
 		- triangles must have three sides
 		- any two side of a triangle must sum to a length greater than the third side to be
 		a valid triangle
+		- triangle side lengths must be greater than 0
 		- triangles are of three types:
 			- Scalene: all three sides of different lengths
 			- Isosceles: two sides are the same length, one is of different length

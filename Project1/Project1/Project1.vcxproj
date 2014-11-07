@@ -65,12 +65,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="NotASquareException.h" />
+    <ClInclude Include="NotTriangleException.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="TriangleType.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NotTriangleException.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
