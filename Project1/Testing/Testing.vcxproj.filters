@@ -21,9 +21,15 @@
     <ClCompile Include="TriangleTestFixture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SquareTestFixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TriangleTestFixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareTestFixture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -69,9 +69,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SquareTestFixture.cpp" />
     <ClCompile Include="TriangleTestFixture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SquareTestFixture.h" />
     <ClInclude Include="TriangleTestFixture.h" />
   </ItemGroup>
   <ItemGroup>
