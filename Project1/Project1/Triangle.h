@@ -21,10 +21,8 @@ public:
 	int getMiddleSide();
 	int getShortestSide();
 
-	/*bool operator>(Triangle& t1, Triangle& t2);
-	bool operator<(Triangle& t1, Triangle& t2);
-	bool operator==(Triangle& t1, Triangle& t2);
-	bool operator!=(Triangle& t1, Triangle& t2);*/
-
-
+	bool operator>(Triangle& other);
+	bool operator<(Triangle& other);
+	bool operator==(Triangle& other);
+	bool operator!=(Triangle& other);
 };

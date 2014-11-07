@@ -12,4 +12,8 @@ int main()
 
 	cin.get();
 	return 0;
+
+	Triangle t(1, 2, 3), p(3, 4, 5);
+
+	return t < p;
 }

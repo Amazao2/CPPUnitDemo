@@ -24,7 +24,7 @@ Triangle::Triangle(int side1, int side2, int side3)
 	// ensure these values make a triangle
 	if (side1 + side2 >= side3 || side1 + side3 >= side2 || side2 + side3 >= side1)
 	{
-		throw new NotTriangleException; // throw an exception if this is not a triangle
+		throw new NotTriangleException(); // throw an exception if this is not a triangle
 	}
 	else
 	{
@@ -98,22 +98,22 @@ int Triangle::getMiddleSide()
 
 /* Overloaded Operators - compare triangles based on perimeter */
 
-bool operator>(Triangle& t1, Triangle& t2)
+bool Triangle::operator>(Triangle& other)
 {
-	return t1.getPerimeter() > t2.getPerimeter();
+	return this->getPerimeter() > other.getPerimeter();
 }
 
-bool operator<(Triangle& t1, Triangle& t2)
+bool Triangle::operator<(Triangle& other)
 {
-	return t1.getPerimeter() < t2.getPerimeter();
+	return this->getPerimeter() < other.getPerimeter();
 }
 
-bool operator==(Triangle& t1, Triangle& t2)
+bool Triangle::operator==(Triangle& other)
 {
-	return t1.getPerimeter() == t2.getPerimeter();
+	return this->getPerimeter() == other.getPerimeter();
 }
 
-bool operator!=(Triangle& t1, Triangle& t2)
+bool Triangle::operator!=(Triangle& other)
 {
-	return t1.getPerimeter() != t2.getPerimeter();
+	return this->getPerimeter() != other.getPerimeter();
 }
