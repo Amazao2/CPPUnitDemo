@@ -22,9 +22,9 @@ void Triangle::setTriangleType()
 Triangle::Triangle(int side1, int side2, int side3)
 {
 	// ensure these values make a triangle
-	if (side1 + side2 >= side3 || side1 + side3 >= side2 || side2 + side3 >= side1)
+	if (side2 + side3 < side1 || side1 + side2 < side3 || side1 + side3 < side2)
 	{
-		throw new NotTriangleException(); // throw an exception if this is not a triangle
+		throw NotTriangleException(); // throw an exception if this is not a triangle
 	}
 	else
 	{
