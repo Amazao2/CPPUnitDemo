@@ -10,6 +10,7 @@
 #include <cppunit/plugin/DynamicLibraryManagerException.h>
 #include <cppunit/extensions/TestFactoryRegistry.h>
 #include "TestPlugInException.h"
+#include "../Utilities/Utilities.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -36,7 +37,8 @@ void
 TestPlugIn::deleteDllCopy()
 {
   m_manager.unload( m_copyFileName );
-  ::DeleteFile( m_copyFileName.c_str() );
+
+  ::DeleteFile( Utilities::stringToWchar(m_copyFileName) );
 }
 
 
@@ -78,7 +80,7 @@ TestPlugIn::reloadDll()
 void 
 TestPlugIn::makeDllCopy()
 {
-  if ( ::CopyFile( m_fileName.c_str(), m_copyFileName.c_str(), FALSE ) == FALSE )
+	if (::CopyFile(Utilities::stringToWchar(m_fileName), Utilities::stringToWchar(m_copyFileName), FALSE) == FALSE)
   {
     throw TestPlugInException( "Failed to copy DLL" + m_fileName +
         " to " + m_copyFileName, TestPlugInException::failedToCopyDll );

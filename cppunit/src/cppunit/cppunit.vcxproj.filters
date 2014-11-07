@@ -2,37 +2,37 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="documentation">
-      <UniqueIdentifier>{3f9ee115-cc46-4946-8260-3f254a7087d9}</UniqueIdentifier>
+      <UniqueIdentifier>{1f35a522-dd60-4f04-9380-fb028df9a72e}</UniqueIdentifier>
     </Filter>
     <Filter Include="listener">
-      <UniqueIdentifier>{7852f85a-5fed-4d92-b88d-0b8f2eb105d8}</UniqueIdentifier>
+      <UniqueIdentifier>{cbe069a6-8e4e-445b-b68c-89de3684f737}</UniqueIdentifier>
     </Filter>
     <Filter Include="textui">
-      <UniqueIdentifier>{cb545f16-d7a1-47ce-83a7-09b7285722aa}</UniqueIdentifier>
+      <UniqueIdentifier>{9fff919a-d346-4965-8b95-98adc5d7c348}</UniqueIdentifier>
     </Filter>
     <Filter Include="portability">
-      <UniqueIdentifier>{4d303014-3973-411a-931b-8138122c55b6}</UniqueIdentifier>
+      <UniqueIdentifier>{5a9310ec-b966-45ba-91e7-34096feb45e7}</UniqueIdentifier>
     </Filter>
     <Filter Include="output">
-      <UniqueIdentifier>{88596268-dda6-415e-981a-961f8d720217}</UniqueIdentifier>
+      <UniqueIdentifier>{24c7f9cb-863f-43a5-b3ec-2454d664924d}</UniqueIdentifier>
     </Filter>
     <Filter Include="core">
-      <UniqueIdentifier>{582281f5-87f4-4d28-a138-a16338f81428}</UniqueIdentifier>
+      <UniqueIdentifier>{46aba739-a188-4383-9440-0535ed67665d}</UniqueIdentifier>
     </Filter>
     <Filter Include="helper">
-      <UniqueIdentifier>{9d9f6f31-f866-4f5f-b02e-cd828c7cd476}</UniqueIdentifier>
+      <UniqueIdentifier>{4043b421-8bb0-473c-99af-d98bb2705827}</UniqueIdentifier>
     </Filter>
     <Filter Include="extension">
-      <UniqueIdentifier>{6d9a331f-ad7d-4c27-a40c-8bef59da5f95}</UniqueIdentifier>
+      <UniqueIdentifier>{91af8517-f68c-41bf-bd50-b6a86d9478f5}</UniqueIdentifier>
     </Filter>
     <Filter Include="plugin">
-      <UniqueIdentifier>{01807e64-487f-4efc-aa20-f4d032bbf97f}</UniqueIdentifier>
+      <UniqueIdentifier>{8f454991-5ceb-4f98-bf0e-30105e55606a}</UniqueIdentifier>
     </Filter>
     <Filter Include="tools">
-      <UniqueIdentifier>{b25be4cc-aae3-4ac6-bc2b-3fc821ce8db8}</UniqueIdentifier>
+      <UniqueIdentifier>{1c17cd42-ac54-4364-8c15-1f056174ccb4}</UniqueIdentifier>
     </Filter>
     <Filter Include="protector">
-      <UniqueIdentifier>{c7389337-fa89-4a43-b9d2-0e9d84808c50}</UniqueIdentifier>
+      <UniqueIdentifier>{7923b3ba-f047-4fa3-be48-86f09e1be5d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -242,6 +242,9 @@
       <Filter>portability</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\cppunit\portability\CppUnitVector.h">
+      <Filter>portability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cppunit\portability\FloatingPoint.h">
       <Filter>portability</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\cppunit\Portability.h">

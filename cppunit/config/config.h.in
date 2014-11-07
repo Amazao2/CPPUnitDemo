@@ -18,11 +18,17 @@
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #undef HAVE_DLFCN_H
 
+/* Define to 1 if you have the `finite' function. */
+#undef HAVE_FINITE
+
 /* define if the compiler supports GCC C++ ABI name demangling */
 #undef HAVE_GCC_ABI_DEMANGLE
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H
+
+/* define if compiler has isfinite */
+#undef HAVE_ISFINITE
 
 /* Define if you have the libdl library or equivalent. */
 #undef HAVE_LIBDL

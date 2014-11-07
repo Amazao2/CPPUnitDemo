@@ -1,21 +1,19 @@
 #include "Square.h"
-#include "NotASquareException.h""
+#include "NotASquareException.h"
 
 // construct the square by setting the side length
-Square::Square(int sideLength)
+Square::Square(int sideLength) : sideLength(sideLength)
 {
 	if (sideLength <= 0)
 	{
 		throw NotASquareException();
 	}
-	else
-	  Square::sideLength = sideLength;
 }
 
 
 int Square::getPerimeter()
 {
-	return Square::sideLength * 4;
+	return Square::sideLength * 3;
 }
 
 int Square::getSideLength()

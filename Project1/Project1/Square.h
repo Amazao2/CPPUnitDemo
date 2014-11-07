@@ -12,7 +12,7 @@ class Square
 
 private:
 
-	int sideLength;
+	const int sideLength;
 
 public:
 

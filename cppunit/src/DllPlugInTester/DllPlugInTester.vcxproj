@@ -33,7 +33,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{0BFC1C3C-4903-45C0-9EBF-048DB4DB1ED9}</ProjectGuid>
+    <ProjectGuid>{CED87815-1212-4BBE-9F22-D5EB6EE201E3}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
@@ -50,7 +50,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -344,7 +344,7 @@
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <SubSystem>Console</SubSystem>
-      <OutputFile>ReleaseDll\DllPlugInTester_dll.exe</OutputFile>
+      <OutputFile>ReleaseDll\DllPlugInTester.exe</OutputFile>
       <AdditionalLibraryDirectories>../../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;cppunit_dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -404,11 +404,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\cppunit\cppunit.vcxproj">
-      <Project>{f2639801-8814-48e1-826f-2350e173b36e}</Project>
+      <Project>{e39947cc-1ae7-4126-ade1-a94fa09f1f55}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\cppunit\cppunit_dll.vcxproj">
-      <Project>{09a0eb03-6308-4d47-8f86-9302138ad3e6}</Project>
+      <Project>{f12a05f8-7fc4-446b-97dd-fb1f4dd09fb8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

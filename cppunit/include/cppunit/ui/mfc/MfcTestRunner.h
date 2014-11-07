@@ -49,7 +49,7 @@ CPPUNIT_NS_BEGIN
  * \endcode
  * \see CppUnit::TextTestRunner, CppUnit::TestFactoryRegistry.
  */
-class AFX_EXT_CLASS MfcTestRunner
+  class MfcTestRunner
 {
 public:
   MfcTestRunner();

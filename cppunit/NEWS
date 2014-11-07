@@ -1,3 +1,16 @@
+  New in CppUnit 1.12.1:
+  ----------------------
+
+* Assertion:
+
+  - CPPUNIT_ASSERT_DOUBLES_EQUAL() now properly handles non-finite
+    values, specifically NaN, +Inf, and -Inf.
+
+* Portability: 
+
+  - Fixed some compilation issue for QtTestRunner.
+  - Code should build on Windows in UNICODE mode.
+
   New in CppUnit 1.12.0:
   ----------------------
 

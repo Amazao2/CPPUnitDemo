@@ -2,35 +2,35 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{19c34677-77b9-4eb8-91c8-13ed666a9f4e}</UniqueIdentifier>
+      <UniqueIdentifier>{78842287-6c21-400d-9b9a-66a45c5bc857}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Gui">
-      <UniqueIdentifier>{4ee1592c-d364-4599-8155-7f592ea0dd1c}</UniqueIdentifier>
+      <UniqueIdentifier>{dad0ff69-4014-4cb9-804c-dd1b2886220a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Interface">
-      <UniqueIdentifier>{f9cb81e0-eb19-4be6-8f03-4e997e6b174d}</UniqueIdentifier>
+      <UniqueIdentifier>{beec1a98-401b-4ebe-9f68-a29c6a0f1ab4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Models">
-      <UniqueIdentifier>{f76471c8-46a8-44ab-9532-8ef02056ae30}</UniqueIdentifier>
+      <UniqueIdentifier>{06971d03-09bb-4e09-8627-7c2bd8b78a82}</UniqueIdentifier>
     </Filter>
     <Filter Include="DLL">
-      <UniqueIdentifier>{9b932f93-65b3-42e4-82b6-a899463851f3}</UniqueIdentifier>
+      <UniqueIdentifier>{778bd9de-7614-41fc-b33b-830e57118ea6}</UniqueIdentifier>
     </Filter>
     <Filter Include="TestRunner-Was-In-Dll">
-      <UniqueIdentifier>{563f6664-15e5-4d84-ad15-e815146509b7}</UniqueIdentifier>
+      <UniqueIdentifier>{182fb818-53a7-4c96-b8d6-1bb409979cac}</UniqueIdentifier>
     </Filter>
     <Filter Include="TestRunner-Was-In-Dll\UserInterface">
-      <UniqueIdentifier>{c8d3d2b7-302f-4cd0-ba61-7ae2cc50de0a}</UniqueIdentifier>
+      <UniqueIdentifier>{68028d8d-b354-4d36-992c-915d52675e55}</UniqueIdentifier>
     </Filter>
     <Filter Include="TestRunner-Was-In-Dll\UserInterface\DynamicWindow">
-      <UniqueIdentifier>{036553ca-1e6c-42f7-964f-d0ff829ef5b2}</UniqueIdentifier>
+      <UniqueIdentifier>{c858f85f-7f19-4870-b967-ad400562bc1f}</UniqueIdentifier>
     </Filter>
     <Filter Include="TestRunner-Was-In-Dll\Components">
-      <UniqueIdentifier>{40d2600a-2136-4af9-910b-dd082545d858}</UniqueIdentifier>
+      <UniqueIdentifier>{5e0640f5-2e35-4e53-bf8c-48aeb02d40b3}</UniqueIdentifier>
     </Filter>
     <Filter Include="TestRunner-Was-In-Dll\NewFiles">
-      <UniqueIdentifier>{c22964e5-2d96-4dbf-9be5-7b9e86b088bf}</UniqueIdentifier>
+      <UniqueIdentifier>{7ec5a027-8d53-46d8-9b51-673bcfdbf168}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

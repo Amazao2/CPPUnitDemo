@@ -1,5 +1,6 @@
 #include "SquareTestFixture.h"
 
+CPPUNIT_TEST_SUITE_REGISTRATION(SquareTestFixture);
 
 void SquareTestFixture::setUp()
 {

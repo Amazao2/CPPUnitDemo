@@ -2,20 +2,20 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{8973a44b-bee3-4283-a5c2-f66aa48c5035}</UniqueIdentifier>
+      <UniqueIdentifier>{84e355f2-61d3-41ea-9f99-1d9e910f4f8b}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="UserInterface">
-      <UniqueIdentifier>{135011da-b5e3-457a-9d7b-57cfba6ea2f9}</UniqueIdentifier>
+      <UniqueIdentifier>{537ed171-bc56-458f-8140-00c4d6d62ff2}</UniqueIdentifier>
     </Filter>
     <Filter Include="UserInterface\DynamicWindow">
-      <UniqueIdentifier>{1526fd42-3b12-4901-8b09-dcdb876704dd}</UniqueIdentifier>
+      <UniqueIdentifier>{0ece4f12-5986-4a55-9ce9-ee874d899aef}</UniqueIdentifier>
     </Filter>
     <Filter Include="Components">
-      <UniqueIdentifier>{e7d2bcbc-6c53-45d8-8ff3-2f8f2c60957c}</UniqueIdentifier>
+      <UniqueIdentifier>{f1bbb477-c367-426d-a77a-ed88448ae9cd}</UniqueIdentifier>
     </Filter>
     <Filter Include="NewFiles">
-      <UniqueIdentifier>{108cfade-073a-4c8c-bb80-a9f999689d5e}</UniqueIdentifier>
+      <UniqueIdentifier>{67ade2ce-16df-4232-93d0-366aeeb4feb6}</UniqueIdentifier>
       <Extensions>*.cpp;*.h</Extensions>
     </Filter>
   </ItemGroup>

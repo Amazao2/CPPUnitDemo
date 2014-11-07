@@ -18,7 +18,7 @@
     <SccProjectName />
     <SccLocalPath />
     <Keyword>MFCProj</Keyword>
-    <ProjectGuid>{E192FA53-20C4-4D52-AD59-99439D29FB43}</ProjectGuid>
+    <ProjectGuid>{A9980ADC-6CBE-45EF-861B-E4B99C0EB1B7}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
@@ -28,14 +28,15 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
-    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfMfc>
+    </UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
     <UseOfMfc>Dynamic</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -282,11 +283,14 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\cppunit\cppunit_dll.vcxproj">
-      <Project>{09a0eb03-6308-4d47-8f86-9302138ad3e6}</Project>
+      <Project>{f12a05f8-7fc4-446b-97dd-fb1f4dd09fb8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\Utilities.vcxproj">
+      <Project>{71ed7aa9-43dc-4e07-8cad-8698019580f2}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\testrunner\TestRunner.vcxproj">
-      <Project>{1aefb1ab-1eb6-423d-aed5-d393ce165be2}</Project>
+      <Project>{9ff28ecc-cbef-4b3e-b4bb-da8c14bb9e60}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

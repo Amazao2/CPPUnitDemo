@@ -26,7 +26,7 @@
     <SccProjectName />
     <SccLocalPath />
     <Keyword>MFCProj</Keyword>
-    <ProjectGuid>{1AEFB1AB-1EB6-423D-AED5-D393CE165BE2}</ProjectGuid>
+    <ProjectGuid>{9FF28ECC-CBEF-4B3E-B4BB-DA8C14BB9E60}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
@@ -37,6 +37,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
     <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -423,7 +424,7 @@ copy "$(TargetDir)$(TargetName).lib" ..\..\..\lib\$(TargetName).lib</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\cppunit\cppunit.vcxproj">
-      <Project>{f2639801-8814-48e1-826f-2350e173b36e}</Project>
+      <Project>{e39947cc-1ae7-4126-ade1-a94fa09f1f55}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

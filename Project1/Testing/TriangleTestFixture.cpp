@@ -1,5 +1,7 @@
 #include "TriangleTestFixture.h"
 
+//CPPUNIT_TEST_SUITE_REGISTRATION(TriangleTestFixture);
+
 void TriangleTestFixture::setUp()
 {
 	scal = std::make_unique<Triangle>(5, 7, 8);
@@ -40,15 +42,19 @@ CppUnit::Test* TriangleTestFixture::suite()
 	// Create test suite
 	CppUnit::TestSuite* suiteOfTests = new CppUnit::TestSuite("TriangleTest");
 
+	auto testFixture = new TriangleTestFixture();
+
 	// Add tests
 	suiteOfTests->addTest(new CppUnit::TestCaller<TriangleTestFixture>(
-		"testEquality", &TriangleTestFixture::testIdentification));
+		"testEquality", &TriangleTestFixture::testIdentification, testFixture));
 
 	suiteOfTests->addTest(new CppUnit::TestCaller<TriangleTestFixture>(
-		"predicateTesting", &TriangleTestFixture::predicateTesting));
+		"predicateTesting", &TriangleTestFixture::predicateTesting, testFixture));
 
 	suiteOfTests->addTest(new CppUnit::TestCaller<TriangleTestFixture>(
-		"negativeTesting", &TriangleTestFixture::negativeTesting));
+		"negativeTesting", &TriangleTestFixture::negativeTesting, testFixture));
+
+	//delete testFixture;
 
 	return suiteOfTests;
 }

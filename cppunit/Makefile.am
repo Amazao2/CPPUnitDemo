@@ -21,7 +21,8 @@ EXTRA_DIST = BUGS INSTALL-unix INSTALL-WIN32.txt CodingGuideLines.txt	\
 	contrib/bc5/bcc-makefile.zip \
 	contrib/xml-xsl/tests.xml \
 	contrib/xml-xsl/report.xsl \
-	src/CppUnitLibraries.dsw
+	src/CppUnitLibraries.dsw \
+	lib/.keepme
 
 m4sources = \
 	config/ac_create_prefix_config_h.m4		\
@@ -47,7 +48,7 @@ dist-hook:
 	cp -dpR $(top_srcdir)/include/msvc6 $(distdir)/include 
 	cp -dpR $(top_srcdir)/examples/msvc6 $(distdir)/examples
 	cp -dpR $(top_srcdir)/examples/qt $(distdir)/examples
-	mkdir $(distdir)/lib
+	test -d $(distdir)/lib || mkdir $(distdir)/lib
 	find $(distdir) -name CVS | xargs rm -rf
 	perl -pi -e 's/\n/\r\n/g' `find $(distdir) -name '*.ds?'` \
 		$(distdir)/contrib/msvc/*			  \

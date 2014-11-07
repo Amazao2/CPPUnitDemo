@@ -2,40 +2,40 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="DllSpecific">
-      <UniqueIdentifier>{b99a29f2-c58d-48b4-8d05-3bc4e9315064}</UniqueIdentifier>
+      <UniqueIdentifier>{5a49bba4-377c-473c-bcb2-efe02998298d}</UniqueIdentifier>
     </Filter>
     <Filter Include="extension">
-      <UniqueIdentifier>{b14b908d-344e-423c-b4a4-77077aefadef}</UniqueIdentifier>
+      <UniqueIdentifier>{e0fb5279-48b4-4636-a6d9-8682a1bdd947}</UniqueIdentifier>
     </Filter>
     <Filter Include="helper">
-      <UniqueIdentifier>{1a6ba4fe-27c3-4139-b7bf-bc385170f21d}</UniqueIdentifier>
+      <UniqueIdentifier>{a3f4853a-c0ba-4133-b0f5-11e13190ab32}</UniqueIdentifier>
     </Filter>
     <Filter Include="core">
-      <UniqueIdentifier>{faa8080c-2e4f-461c-a5aa-c59fe10fde8a}</UniqueIdentifier>
+      <UniqueIdentifier>{1d3bad00-b577-46e3-a9cd-08d5c2c280e4}</UniqueIdentifier>
     </Filter>
     <Filter Include="output">
-      <UniqueIdentifier>{ccf7ee5f-d33d-49be-9cf6-8f2498602a81}</UniqueIdentifier>
+      <UniqueIdentifier>{5630ce1f-7791-4153-9328-d9685cb44946}</UniqueIdentifier>
     </Filter>
     <Filter Include="portability">
-      <UniqueIdentifier>{1111d099-2144-4782-a71f-55a65e8595c6}</UniqueIdentifier>
+      <UniqueIdentifier>{abcaef8c-407f-460c-929d-83c393d23171}</UniqueIdentifier>
     </Filter>
     <Filter Include="textui">
-      <UniqueIdentifier>{8f04c96e-f574-4e31-81d4-91d156600422}</UniqueIdentifier>
+      <UniqueIdentifier>{ae6174c6-ffe9-4d18-b811-26ff1a368550}</UniqueIdentifier>
     </Filter>
     <Filter Include="listener">
-      <UniqueIdentifier>{7ff2cc0a-3f31-461b-a990-0c0e65953516}</UniqueIdentifier>
+      <UniqueIdentifier>{5aa98dd6-ddf9-4e00-90aa-86da4c52a99c}</UniqueIdentifier>
     </Filter>
     <Filter Include="documentation">
-      <UniqueIdentifier>{86fced60-ed50-43ff-8110-22467af00cde}</UniqueIdentifier>
+      <UniqueIdentifier>{96d80b27-0af4-4588-8792-32fb4c920ed1}</UniqueIdentifier>
     </Filter>
     <Filter Include="plugin">
-      <UniqueIdentifier>{e6e999c0-0fe5-4675-ab51-9e4e0191e43c}</UniqueIdentifier>
+      <UniqueIdentifier>{13ce5670-2b2c-402a-aa2e-4217f3a6ba90}</UniqueIdentifier>
     </Filter>
     <Filter Include="tools">
-      <UniqueIdentifier>{7d331b38-0a9a-40ec-b083-8701f006f951}</UniqueIdentifier>
+      <UniqueIdentifier>{5699cc0a-216f-46c5-b4fa-a5ba7c2bb781}</UniqueIdentifier>
     </Filter>
     <Filter Include="protector">
-      <UniqueIdentifier>{3b31fca5-296e-47e7-9b20-e3b4b9f66b4a}</UniqueIdentifier>
+      <UniqueIdentifier>{0ff5d7c1-9161-4b36-bec9-aeaac9384a70}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

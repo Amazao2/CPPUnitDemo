@@ -17,7 +17,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{F2639801-8814-48E1-826F-2350E173B36E}</ProjectGuid>
+    <ProjectGuid>{E39947CC-1AE7-4126-ADE1-A94FA09F1F55}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
@@ -34,7 +34,7 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -245,6 +245,7 @@
     <ClInclude Include="..\..\include\cppunit\portability\CppUnitSet.h" />
     <ClInclude Include="..\..\include\cppunit\portability\CppUnitStack.h" />
     <ClInclude Include="..\..\include\cppunit\portability\CppUnitVector.h" />
+    <ClInclude Include="..\..\include\cppunit\portability\FloatingPoint.h" />
     <ClInclude Include="..\..\include\cppunit\portability\Stream.h" />
     <ClInclude Include="..\..\include\cppunit\Protector.h" />
     <ClInclude Include="..\..\include\cppunit\SourceLine.h" />
