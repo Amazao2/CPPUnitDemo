@@ -22,14 +22,10 @@ void Triangle::setTriangleType()
 Triangle::Triangle(int side1, int side2, int side3)
 {
 	bool positiveIntSides = side1 > 0 && side2 > 0 && side3 > 0;
-	bool sidesCorrectlyProportioned = side2 + side3 < side1 || side1 + side2 < side3 || side1 + side3 < side2;
+	bool sidesCorrectlyProportioned = !(side2 + side3 < side1 || side1 + side2 < side3 || side1 + side3 < side2);
 
 	// ensure these values make a triangle
 	if (positiveIntSides && sidesCorrectlyProportioned)
-	{
-		throw NotTriangleException(); // throw an exception if this is not a triangle
-	}
-	else
 	{
 		// initialize sides
 		sides[0] = side1;
@@ -38,6 +34,10 @@ Triangle::Triangle(int side1, int side2, int side3)
 
 		// initializes the type of the triangle
 		setTriangleType();
+	}
+	else
+	{
+		throw NotTriangleException(); // throw an exception if this is not a triangle
 	}
 
 }

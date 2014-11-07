@@ -46,6 +46,11 @@ private:
 	// 1 + 2 <= 3 || 1 + 3 <= 2 && 2 + 3 <= 1
 	// f, f, t
 	std::unique_ptr<Triangle> predicate2;
+
+	// Negative numbers
+	std::unique_ptr<Triangle> neg1;
+	std::unique_ptr<Triangle> neg2;
+	std::unique_ptr<Triangle> neg3;
 	
 
 public:
@@ -54,6 +59,7 @@ public:
 
 	void testIdentification();
 	void predicateTesting();
+	void negativeTesting();
 
 	static CppUnit::Test* suite();
 		

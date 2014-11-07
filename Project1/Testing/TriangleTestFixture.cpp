@@ -28,6 +28,13 @@ void TriangleTestFixture::predicateTesting()
 	CPPUNIT_ASSERT_THROW(predicate2 = std::make_unique<Triangle>(1, 1, 3), NotTriangleException);
 }
 
+void TriangleTestFixture::negativeTesting()
+{
+	CPPUNIT_ASSERT_THROW(neg1 = std::make_unique<Triangle>(-3,  4,  5), NotTriangleException);
+	CPPUNIT_ASSERT_THROW(neg2 = std::make_unique<Triangle>( 3, -4,  5), NotTriangleException);
+	CPPUNIT_ASSERT_THROW(neg3 = std::make_unique<Triangle>( 3,  4, -5), NotTriangleException);
+}
+
 CppUnit::Test* TriangleTestFixture::suite()
 {
 	// Create test suite
@@ -39,6 +46,9 @@ CppUnit::Test* TriangleTestFixture::suite()
 
 	suiteOfTests->addTest(new CppUnit::TestCaller<TriangleTestFixture>(
 		"predicateTesting", &TriangleTestFixture::predicateTesting));
+
+	suiteOfTests->addTest(new CppUnit::TestCaller<TriangleTestFixture>(
+		"negativeTesting", &TriangleTestFixture::negativeTesting));
 
 	return suiteOfTests;
 }

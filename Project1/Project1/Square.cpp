@@ -1,5 +1,5 @@
 #include "Square.h"
-#include "NotASquareException.h"
+#include "NotASquareException.h""
 
 // construct the square by setting the side length
 Square::Square(int sideLength)
